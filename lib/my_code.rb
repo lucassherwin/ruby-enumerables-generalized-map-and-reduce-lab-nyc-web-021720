@@ -10,4 +10,3 @@ def map(arr)
 end
 
 #def reduce(arr)
-  
