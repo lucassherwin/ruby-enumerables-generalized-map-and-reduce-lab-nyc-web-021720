@@ -11,3 +11,10 @@ end
 
 def reduce(arr)
   total = 0
+  i = 0
+  while i < arr.length do
+    total += arr[i]
+    i += 1
+  end
+  total
+end
