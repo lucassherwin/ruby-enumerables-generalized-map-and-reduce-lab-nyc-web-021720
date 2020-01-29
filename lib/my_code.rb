@@ -11,7 +11,7 @@ end
 
 def reduce(arr, start = 0)
   total = start
-  i = start if start else i == 1
+  i = start if start
   while i < arr.length do
     total = yield(total, arr[i])
     i += 1
