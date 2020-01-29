@@ -1,10 +1,13 @@
 # Your Code Here
 def map(arr)
-  neg_arr = []
+  new_arr = []
   i = 0
   while i < arr.length do
-    neg_arr.push(yield(arr[i]))
+    new_arr.push(yield(arr[i]))
     i += 1
   end
-  neg_arr
+  new_arr
 end
+
+def reduce(arr)
+  
