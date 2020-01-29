@@ -9,9 +9,9 @@ def map(arr)
   new_arr
 end
 
-def reduce(arr, start = 0)
+def reduce(arr, start = nil)
   total = start
-  i = start if start
+  i = start i
   while i < arr.length do
     total = yield(total, arr[i])
     i += 1
