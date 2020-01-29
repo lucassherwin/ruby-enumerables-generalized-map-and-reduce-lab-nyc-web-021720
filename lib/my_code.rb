@@ -9,4 +9,5 @@ def map(arr)
   new_arr
 end
 
-#def reduce(arr)
+def reduce(arr)
+  total = 0
